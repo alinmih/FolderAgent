@@ -1,0 +1,106 @@
+2021-03-23 09:37:32.881 +02:00 [INF] Starting up the service
+2021-03-23 09:37:36.639 +02:00 [DBG] Hosting starting
+2021-03-23 09:37:36.665 +02:00 [DBG] Thread Id in StartAsync : 1
+2021-03-23 09:37:36.679 +02:00 [INF] Added folder C:\Users\Alin Mihailescu\source\repos\SeniorFolderAgent\FolderAgent_1 to tracked folders
+2021-03-23 09:37:36.701 +02:00 [INF] Added folder C:\Users\Alin Mihailescu\source\repos\SeniorFolderAgent\FolderAgent_2 to tracked folders
+2021-03-23 09:37:36.704 +02:00 [INF] Added folder C:\Users\Alin Mihailescu\source\repos\SeniorFolderAgent\FolderAgent_3 to tracked folders
+2021-03-23 09:37:36.706 +02:00 [INF] Added folder C:\Users\Alin Mihailescu\source\repos\SeniorFolderAgent\FolderAgent_4 to tracked folders
+2021-03-23 09:37:36.709 +02:00 [INF] Listening to folders...
+2021-03-23 09:37:36.765 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-03-23 09:37:36.776 +02:00 [INF] Hosting environment: Development
+2021-03-23 09:37:36.779 +02:00 [INF] Content root path: C:\Users\Alin Mihailescu\source\repos\SeniorFolderAgent\SeniorFolderAgent
+2021-03-23 09:37:36.780 +02:00 [DBG] Hosting started
+2021-03-23 09:55:41.935 +02:00 [INF] Starting up the service
+2021-03-23 09:55:42.487 +02:00 [INF] Added folder C:\Users\Alin Mihailescu\source\repos\SeniorFolderAgent\FolderAgent_1 to tracked folders
+2021-03-23 09:55:42.510 +02:00 [INF] Added folder C:\Users\Alin Mihailescu\source\repos\SeniorFolderAgent\FolderAgent_2 to tracked folders
+2021-03-23 09:55:42.512 +02:00 [INF] Added folder C:\Users\Alin Mihailescu\source\repos\SeniorFolderAgent\FolderAgent_3 to tracked folders
+2021-03-23 09:55:42.515 +02:00 [INF] Added folder C:\Users\Alin Mihailescu\source\repos\SeniorFolderAgent\FolderAgent_4 to tracked folders
+2021-03-23 09:55:42.518 +02:00 [INF] Listening to folders...
+2021-03-23 09:55:58.567 +02:00 [INF] Service stopped
+2021-03-23 09:56:04.432 +02:00 [INF] Starting up the service
+2021-03-23 09:56:04.958 +02:00 [DBG] Hosting starting
+2021-03-23 09:56:05.000 +02:00 [INF] Added folder C:\Users\Alin Mihailescu\source\repos\SeniorFolderAgent\FolderAgent_1 to tracked folders
+2021-03-23 09:56:05.019 +02:00 [INF] Added folder C:\Users\Alin Mihailescu\source\repos\SeniorFolderAgent\FolderAgent_2 to tracked folders
+2021-03-23 09:56:05.021 +02:00 [INF] Added folder C:\Users\Alin Mihailescu\source\repos\SeniorFolderAgent\FolderAgent_3 to tracked folders
+2021-03-23 09:56:05.023 +02:00 [INF] Added folder C:\Users\Alin Mihailescu\source\repos\SeniorFolderAgent\FolderAgent_4 to tracked folders
+2021-03-23 09:56:05.028 +02:00 [INF] Listening to folders...
+2021-03-23 09:56:05.051 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-03-23 09:56:05.102 +02:00 [INF] Hosting environment: Development
+2021-03-23 09:56:05.114 +02:00 [INF] Content root path: C:\Users\Alin Mihailescu\source\repos\SeniorFolderAgent\SeniorFolderAgent
+2021-03-23 09:56:05.116 +02:00 [DBG] Hosting started
+2021-03-23 09:56:31.887 +02:00 [INF] File: C:\Users\Alin Mihailescu\source\repos\SeniorFolderAgent\FolderAgent_1\3 - Copy - Copy (2).pdf printed at printer: Bullzip PDF Printer
+2021-03-23 09:56:45.678 +02:00 [INF] Application is shutting down...
+2021-03-23 09:56:45.679 +02:00 [DBG] Hosting stopping
+2021-03-23 09:56:45.683 +02:00 [INF] Service stopped
+2021-03-23 09:56:45.709 +02:00 [DBG] Hosting stopped
+2021-03-23 09:59:23.985 +02:00 [INF] Starting up the service
+2021-03-23 09:59:24.529 +02:00 [DBG] Thread Id in StartAsync : 1
+2021-03-23 09:59:24.544 +02:00 [INF] Added folder C:\Users\Alin Mihailescu\source\repos\SeniorFolderAgent\FolderAgent_1 to tracked folders
+2021-03-23 09:59:24.552 +02:00 [INF] Added folder C:\Users\Alin Mihailescu\source\repos\SeniorFolderAgent\FolderAgent_2 to tracked folders
+2021-03-23 09:59:24.566 +02:00 [INF] Added folder C:\Users\Alin Mihailescu\source\repos\SeniorFolderAgent\FolderAgent_3 to tracked folders
+2021-03-23 09:59:24.568 +02:00 [INF] Added folder C:\Users\Alin Mihailescu\source\repos\SeniorFolderAgent\FolderAgent_4 to tracked folders
+2021-03-23 09:59:24.573 +02:00 [INF] Listening to folders...
+2021-03-23 09:59:44.897 +02:00 [INF] Service stopped
+2021-03-23 10:01:11.483 +02:00 [INF] Starting up the service
+2021-03-23 10:01:12.142 +02:00 [DBG] Thread Id in StartAsync : 1
+2021-03-23 10:01:12.177 +02:00 [INF] Added folder C:\Users\Alin Mihailescu\source\repos\SeniorFolderAgent\FolderAgent_1 to tracked folders
+2021-03-23 10:01:12.221 +02:00 [INF] Added folder C:\Users\Alin Mihailescu\source\repos\SeniorFolderAgent\FolderAgent_2 to tracked folders
+2021-03-23 10:01:12.247 +02:00 [INF] Added folder C:\Users\Alin Mihailescu\source\repos\SeniorFolderAgent\FolderAgent_3 to tracked folders
+2021-03-23 10:01:12.251 +02:00 [INF] Added folder C:\Users\Alin Mihailescu\source\repos\SeniorFolderAgent\FolderAgent_4 to tracked folders
+2021-03-23 10:01:12.256 +02:00 [INF] Listening to folders...
+2021-03-23 10:01:17.158 +02:00 [DBG] Enqued file - 3 - Copy - Copy (2).pdf
+2021-03-23 10:01:17.168 +02:00 [DBG] Thread Id in execute : 4
+2021-03-23 10:01:18.974 +02:00 [INF] File: C:\Users\Alin Mihailescu\source\repos\SeniorFolderAgent\FolderAgent_1\3 - Copy - Copy (2).pdf printed at printer: Bullzip PDF Printer
+2021-03-23 10:01:18.982 +02:00 [DBG] File C:\Users\Alin Mihailescu\source\repos\SeniorFolderAgent\ToBeDeleted\3 - Copy - Copy (2).pdf_printed already exist. Deleted old.
+2021-03-23 10:01:18.988 +02:00 [DBG] File C:\Users\Alin Mihailescu\source\repos\SeniorFolderAgent\ToBeDeleted\3 - Copy - Copy (2).pdf_printed moved
+2021-03-23 10:01:30.268 +02:00 [INF] Service stopped
+2021-03-23 10:02:00.198 +02:00 [INF] Starting up the service
+2021-03-23 10:02:00.811 +02:00 [DBG] Thread Id in StartAsync : 1
+2021-03-23 10:02:00.822 +02:00 [INF] Added folder C:\Users\Alin Mihailescu\source\repos\SeniorFolderAgent\FolderAgent_1 to tracked folders
+2021-03-23 10:02:00.838 +02:00 [INF] Added folder C:\Users\Alin Mihailescu\source\repos\SeniorFolderAgent\FolderAgent_2 to tracked folders
+2021-03-23 10:02:00.840 +02:00 [INF] Added folder C:\Users\Alin Mihailescu\source\repos\SeniorFolderAgent\FolderAgent_3 to tracked folders
+2021-03-23 10:02:00.842 +02:00 [INF] Added folder C:\Users\Alin Mihailescu\source\repos\SeniorFolderAgent\FolderAgent_4 to tracked folders
+2021-03-23 10:02:00.846 +02:00 [INF] Listening to folders...
+2021-03-23 10:02:01.434 +02:00 [DBG] Enqued file - 3 - Copy - Copy (3).pdf
+2021-03-23 10:02:01.444 +02:00 [DBG] Thread Id in execute : 4
+2021-03-23 10:02:03.697 +02:00 [INF] File: C:\Users\Alin Mihailescu\source\repos\SeniorFolderAgent\FolderAgent_1\3 - Copy - Copy (3).pdf printed at printer: Bullzip PDF Printer
+2021-03-23 10:02:03.708 +02:00 [DBG] File 3 - Copy - Copy (3).pdf already exist. Deleted old.
+2021-03-23 10:02:03.711 +02:00 [DBG] File 3 - Copy - Copy (3).pdf moved
+2021-03-23 10:02:40.621 +02:00 [INF] Service stopped
+2021-03-23 10:18:27.452 +02:00 [INF] Starting up the service
+2021-03-23 10:18:28.594 +02:00 [DBG] Thread Id in StartAsync : 1
+2021-03-23 10:18:28.607 +02:00 [INF] Added folder C:\Users\Alin Mihailescu\source\repos\SeniorFolderAgent\FolderAgent_1 to tracked folders
+2021-03-23 10:18:28.609 +02:00 [INF] Added folder C:\Users\Alin Mihailescu\source\repos\SeniorFolderAgent\FolderAgent_2 to tracked folders
+2021-03-23 10:18:28.611 +02:00 [INF] Added folder C:\Users\Alin Mihailescu\source\repos\SeniorFolderAgent\FolderAgent_3 to tracked folders
+2021-03-23 10:18:28.613 +02:00 [INF] Added folder C:\Users\Alin Mihailescu\source\repos\SeniorFolderAgent\FolderAgent_4 to tracked folders
+2021-03-23 10:18:28.616 +02:00 [INF] Listening to folders...
+2021-03-23 10:18:37.855 +02:00 [DBG] Enqued file - 3 - Copy - Copy (3).pdf
+2021-03-23 10:18:37.874 +02:00 [DBG] Thread Id in execute : 4
+2021-03-23 10:18:39.894 +02:00 [INF] File: C:\Users\Alin Mihailescu\source\repos\SeniorFolderAgent\FolderAgent_1\3 - Copy - Copy (3).pdf printed at printer: Bullzip PDF Printer
+2021-03-23 10:18:39.905 +02:00 [DBG] File 3 - Copy - Copy (3).pdf already exist. Deleted old.
+2021-03-23 10:18:39.908 +02:00 [DBG] File 3 - Copy - Copy (3).pdf moved
+2021-03-23 10:18:45.254 +02:00 [INF] Service stopped
+2021-03-23 10:31:41.387 +02:00 [INF] Starting up the service
+2021-03-23 10:31:42.208 +02:00 [DBG] Thread Id in StartAsync : 1
+2021-03-23 10:31:42.219 +02:00 [INF] Added folder C:\Users\Alin Mihailescu\source\repos\SeniorFolderAgent\FolderAgent_1 to tracked folders
+2021-03-23 10:31:42.221 +02:00 [INF] Added folder C:\Users\Alin Mihailescu\source\repos\SeniorFolderAgent\FolderAgent_2 to tracked folders
+2021-03-23 10:31:42.223 +02:00 [INF] Added folder C:\Users\Alin Mihailescu\source\repos\SeniorFolderAgent\FolderAgent_3 to tracked folders
+2021-03-23 10:31:42.227 +02:00 [INF] Added folder C:\Users\Alin Mihailescu\source\repos\SeniorFolderAgent\FolderAgent_4 to tracked folders
+2021-03-23 10:31:42.232 +02:00 [INF] Listening to folders...
+2021-03-23 10:31:44.094 +02:00 [INF] Service stopped
+2021-03-23 10:31:50.845 +02:00 [INF] Starting up the service
+2021-03-23 10:31:51.835 +02:00 [DBG] Thread Id in StartAsync : 1
+2021-03-23 10:31:51.859 +02:00 [INF] Added folder C:\Users\Alin Mihailescu\source\repos\SeniorFolderAgent\FolderAgent_1 to tracked folders
+2021-03-23 10:31:51.861 +02:00 [INF] Added folder C:\Users\Alin Mihailescu\source\repos\SeniorFolderAgent\FolderAgent_2 to tracked folders
+2021-03-23 10:31:51.863 +02:00 [INF] Added folder C:\Users\Alin Mihailescu\source\repos\SeniorFolderAgent\FolderAgent_3 to tracked folders
+2021-03-23 10:31:51.865 +02:00 [INF] Added folder C:\Users\Alin Mihailescu\source\repos\SeniorFolderAgent\FolderAgent_4 to tracked folders
+2021-03-23 10:31:51.868 +02:00 [INF] Listening to folders...
+2021-03-23 10:31:53.819 +02:00 [INF] Service stopped
+2021-03-23 10:32:34.199 +02:00 [INF] Starting up the service
+2021-03-23 10:32:35.004 +02:00 [DBG] Thread Id in StartAsync : 1
+2021-03-23 10:32:35.016 +02:00 [INF] Added folder C:\Users\Alin Mihailescu\source\repos\SeniorFolderAgent\FolderAgent_1 to tracked folders
+2021-03-23 10:32:35.018 +02:00 [INF] Added folder C:\Users\Alin Mihailescu\source\repos\SeniorFolderAgent\FolderAgent_2 to tracked folders
+2021-03-23 10:32:35.020 +02:00 [INF] Added folder C:\Users\Alin Mihailescu\source\repos\SeniorFolderAgent\FolderAgent_3 to tracked folders
+2021-03-23 10:32:35.023 +02:00 [INF] Added folder C:\Users\Alin Mihailescu\source\repos\SeniorFolderAgent\FolderAgent_4 to tracked folders
+2021-03-23 10:32:35.026 +02:00 [INF] Listening to folders...
+2021-03-23 10:32:36.862 +02:00 [INF] Service stopped
