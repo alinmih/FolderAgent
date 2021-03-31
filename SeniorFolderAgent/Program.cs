@@ -21,7 +21,7 @@ namespace SeniorFolderAgent
                 var baseDir = AppDomain.CurrentDomain.BaseDirectory;
                 var configuration = new ConfigurationBuilder()
                     .SetBasePath(baseDir)
-                    .AddJsonFile("appsettings.json")
+                    .AddJsonFile($"appsettings.{Environment.GetEnvironmentVariable("DOTNET_ENVIRONMENT")}.json", true)
                     .Build();
                 Log.Logger = new LoggerConfiguration()
                     .ReadFrom.Configuration(configuration)

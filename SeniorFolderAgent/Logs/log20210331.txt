@@ -1,0 +1,5 @@
+[14:18:18 INF]   - Starting up the service
+[14:18:19 DBG]   - Thread Id in StartAsync : 1
+[14:18:19 INF]   - Added folder "C:/Users/Alin Mihailescu/source/repos/SeniorFolderAgent/Gate_1" to tracked folders
+[14:18:19 INF]   - Listening to folders...
+[14:18:27 INF]   - Service stopped
