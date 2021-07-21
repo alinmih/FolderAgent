@@ -15,26 +15,20 @@ namespace SeniorFolderAgent
     {
         public static void Main(string[] args)
         {
-
             try
             {
                 var baseDir = AppDomain.CurrentDomain.BaseDirectory;
                 var configuration = new ConfigurationBuilder()
                     .SetBasePath(baseDir)
-                    .AddJsonFile($"appsettings.{Environment.GetEnvironmentVariable("DOTNET_ENVIRONMENT")}.json", true)
+                    .AddJsonFile("appsettings.json")
                     .Build();
                 Log.Logger = new LoggerConfiguration()
                     .ReadFrom.Configuration(configuration)
                     .CreateLogger();
 
-                //Log.Logger = new LoggerConfiguration()
-                //.MinimumLevel.Debug()
-                //.MinimumLevel.Override("Microsoft", LogEventLevel.Warning)
-                //.Enrich.FromLogContext()
-                //.WriteTo.Console()
-                //.WriteTo.File(@$"{Directory.GetCurrentDirectory()}\Logs\LogFile.txt")
-                //.CreateLogger();
-
+                Log.Information("====================================================================");
+                Log.Information($"Application Starts. Version: {System.Reflection.Assembly.GetEntryAssembly()?.GetName().Version}");
+                Log.Information($"Application Directory: {AppDomain.CurrentDomain.BaseDirectory}");
                 Log.Information("Starting up the service");
 
                 CreateHostBuilder(args).Build().Run();
@@ -49,6 +43,7 @@ namespace SeniorFolderAgent
             }
             finally
             {
+                Log.Information("====================================================================\r\n");
                 Log.CloseAndFlush();
             }
         }

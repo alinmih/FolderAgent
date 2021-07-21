@@ -15,7 +15,7 @@ namespace SeniorFolderAgent
     {
         private readonly ILogger<Worker> _logger;
         private readonly IConfiguration _configuration;
-        private readonly string printingFolders = "AutoStoreGates";
+        private readonly string printingFolders = "Folders";
         private readonly string formatType = "Format";
         private readonly string printerAgent = "Sumatra_Executable";
 
@@ -61,6 +61,7 @@ namespace SeniorFolderAgent
                             gatePrinter = val.Value;
                         }
                     }
+
                     gatesPrinter.Add(gateFolder, gatePrinter);
                 }
 
@@ -95,7 +96,7 @@ namespace SeniorFolderAgent
 
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
         {
-            _logger.LogInformation("Listening to folders...");
+            _logger.LogInformation("Waiting for jobs...");
             await Task.Run(() =>
             {
                 while (!stoppingToken.IsCancellationRequested)
@@ -168,7 +169,8 @@ namespace SeniorFolderAgent
             Task task = Task.Run(() =>
             {
                 Thread.Sleep(pdfCreationThreadWait);
-                FileQueue.Enqueue(new FileModel { Name = e.Name, FullPath = e.FullPath });
+                var processPath = e.FullPath.Replace("\\", "/");
+                FileQueue.Enqueue(new FileModel { Name = e.Name, FullPath = processPath });
                 _logger.LogDebug("Enqued file - {0}", e.Name);
             });
         }
@@ -180,7 +182,9 @@ namespace SeniorFolderAgent
                 try
                 {
                     // get the printer
-                    var printer = gatesPrinter.GetValueOrDefault(Path.GetDirectoryName(file.FullPath));
+                    var path = Path.GetDirectoryName(file.FullPath).Replace("\\","/");
+
+                    var printer = gatesPrinter.GetValueOrDefault(path);
 
                     var format = _configuration.GetSection(formatType).Value;
                     bool printed = await HasPrintedAsync(file.FullPath, printer, format);
@@ -213,7 +217,8 @@ namespace SeniorFolderAgent
                 using (Process compiler = new Process())
                 {
                     compiler.StartInfo.FileName = printerAgentExecutable;
-                    var arg = string.Concat("\"",fullPath, "\" -print-to \"\\", printer, "\" -print-settings \"", format,"\"");
+                    
+                    var arg = string.Concat("\"",fullPath, "\" -print-to \"", printer, "\" -print-settings \"noscale ", format,"\"");
                     compiler.StartInfo.Arguments = arg;
                     compiler.StartInfo.UseShellExecute = false;
                     compiler.StartInfo.RedirectStandardOutput = true;
@@ -222,7 +227,7 @@ namespace SeniorFolderAgent
                     return compiler.WaitForExit(1000);
                 }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 throw;
 
@@ -238,7 +243,9 @@ namespace SeniorFolderAgent
                     Process process = new Process();
 
                     ProcessStartInfo startInfo = new ProcessStartInfo(printerAgentExecutable);
-                    var arg = string.Concat("\"", fullPath, "\" -print-to \"\\", printer, "\" -print-settings \"", format, "\"");
+                    
+                    //var arg = string.Concat("\"", fullPath, "\" -print-to \"", printer, "\" -print-settings \"noscale paper=", format, "\"");
+                    var arg = string.Concat("\"", fullPath, "\" -print-to \"", printer, "\" -print-settings \"noscale ","\"");
 
                     startInfo.Arguments = arg;
                     startInfo.WindowStyle = ProcessWindowStyle.Normal;
